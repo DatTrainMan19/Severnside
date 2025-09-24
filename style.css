@@ -59,3 +59,27 @@ footer {
   text-align: center;
   background-color: #1a1a1a; /* slightly darker footer */
 }
+/* Big image button */
+.big-button {
+  display: block;
+  width: 80%;               /* adjust width */
+  max-width: 600px;         /* keeps it from getting too big */
+  margin: 40px auto;        /* centers it */
+  padding: 60px 20px;       /* makes it tall */
+  background: url("images/projects-banner.png") no-repeat center center;
+  background-size: cover;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.big-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+}
+
