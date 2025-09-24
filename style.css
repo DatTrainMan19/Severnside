@@ -10,7 +10,7 @@ body {
 header {
   background: url("images/banner.png") no-repeat center center;
   background-size: cover;
-  height: 400px; /* updated banner height */
+  height: 400px; /* banner height */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,25 +48,14 @@ nav a:hover {
   transform: translateY(-2px);
 }
 
-/* Main content */
-main {
-  padding: 20px;
-}
-
-/* Footer */
-footer {
-  padding: 10px;
-  text-align: center;
-  background-color: #1a1a1a; /* slightly darker footer */
-}
-/* Big image button */
+/* Big image button (Current Projects) */
 .big-button {
   display: block;
-  width: 80%;               /* adjust width */
-  max-width: 600px;         /* keeps it from getting too big */
+  width: 80%;
+  max-width: 600px;
   margin: 40px auto;        /* centers it */
   padding: 60px 20px;       /* makes it tall */
-  background: url("images/projects-banner.png") no-repeat center center;
+  background: url("images/current_proj.png") no-repeat center center;
   background-size: cover;
   border-radius: 20px;
   text-align: center;
@@ -83,3 +72,14 @@ footer {
   box-shadow: 0 6px 15px rgba(0,0,0,0.5);
 }
 
+/* Main content */
+main {
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  padding: 10px;
+  text-align: center;
+  background-color: #1a1a1a; /* slightly darker footer */
+}
